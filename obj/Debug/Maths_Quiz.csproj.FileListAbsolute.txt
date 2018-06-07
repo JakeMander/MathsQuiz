@@ -1,0 +1,10 @@
+D:\Projects\Summer_Projects\Maths_Quiz\Maths_Quiz\Maths_Quiz\bin\Debug\Maths_Quiz.exe.config
+D:\Projects\Summer_Projects\Maths_Quiz\Maths_Quiz\Maths_Quiz\bin\Debug\Maths_Quiz.exe
+D:\Projects\Summer_Projects\Maths_Quiz\Maths_Quiz\Maths_Quiz\bin\Debug\Maths_Quiz.pdb
+D:\Projects\Summer_Projects\Maths_Quiz\Maths_Quiz\Maths_Quiz\obj\Debug\Maths_Quiz.csprojResolveAssemblyReference.cache
+D:\Projects\Summer_Projects\Maths_Quiz\Maths_Quiz\Maths_Quiz\obj\Debug\Maths_Quiz.Properties.Resources.resources
+D:\Projects\Summer_Projects\Maths_Quiz\Maths_Quiz\Maths_Quiz\obj\Debug\Maths_Quiz.csproj.GenerateResource.Cache
+D:\Projects\Summer_Projects\Maths_Quiz\Maths_Quiz\Maths_Quiz\obj\Debug\Maths_Quiz.csproj.CoreCompileInputs.cache
+D:\Projects\Summer_Projects\Maths_Quiz\Maths_Quiz\Maths_Quiz\obj\Debug\Maths_Quiz.exe
+D:\Projects\Summer_Projects\Maths_Quiz\Maths_Quiz\Maths_Quiz\obj\Debug\Maths_Quiz.pdb
+D:\Projects\Summer_Projects\Maths_Quiz\Maths_Quiz\Maths_Quiz\obj\Debug\Maths_Quiz.FormSymbolDivision.resources
