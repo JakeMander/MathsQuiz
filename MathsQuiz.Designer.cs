@@ -112,7 +112,7 @@
             // labelRightSumValue
             // 
             this.labelRightSumValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRightSumValue.Location = new System.Drawing.Point(179, 108);
+            this.labelRightSumValue.Location = new System.Drawing.Point(179, 107);
             this.labelRightSumValue.Margin = new System.Windows.Forms.Padding(0);
             this.labelRightSumValue.Name = "labelRightSumValue";
             this.labelRightSumValue.Size = new System.Drawing.Size(60, 50);
@@ -129,9 +129,16 @@
             0,
             0,
             0});
+            this.numericUpDownSum.Minimum = new decimal(new int[] {
+            200,
+            0,
+            0,
+            -2147483648});
             this.numericUpDownSum.Name = "numericUpDownSum";
             this.numericUpDownSum.Size = new System.Drawing.Size(100, 41);
-            this.numericUpDownSum.TabIndex = 6;
+            this.numericUpDownSum.TabIndex = 2;
+            this.numericUpDownSum.Enter += new System.EventHandler(this.numericUpDown_Enter);
+            this.numericUpDownSum.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDownSum_MouseClick);
             // 
             // labelRowOneEqual
             // 
@@ -164,9 +171,16 @@
             0,
             0,
             0});
+            this.numericUpDownDifference.Minimum = new decimal(new int[] {
+            200,
+            0,
+            0,
+            -2147483648});
             this.numericUpDownDifference.Name = "numericUpDownDifference";
             this.numericUpDownDifference.Size = new System.Drawing.Size(100, 41);
-            this.numericUpDownDifference.TabIndex = 11;
+            this.numericUpDownDifference.TabIndex = 3;
+            this.numericUpDownDifference.Enter += new System.EventHandler(this.numericUpDown_Enter);
+            this.numericUpDownDifference.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDownSum_MouseClick);
             // 
             // labelRightDifferenceValue
             // 
@@ -221,9 +235,16 @@
             0,
             0,
             0});
+            this.numericUpDownProduct.Minimum = new decimal(new int[] {
+            200,
+            0,
+            0,
+            -2147483648});
             this.numericUpDownProduct.Name = "numericUpDownProduct";
             this.numericUpDownProduct.Size = new System.Drawing.Size(100, 41);
-            this.numericUpDownProduct.TabIndex = 16;
+            this.numericUpDownProduct.TabIndex = 4;
+            this.numericUpDownProduct.Enter += new System.EventHandler(this.numericUpDown_Enter);
+            this.numericUpDownProduct.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDownSum_MouseClick);
             // 
             // labelRightProductValue
             // 
@@ -278,9 +299,16 @@
             0,
             0,
             0});
+            this.numericUpDownDivision.Minimum = new decimal(new int[] {
+            200,
+            0,
+            0,
+            -2147483648});
             this.numericUpDownDivision.Name = "numericUpDownDivision";
             this.numericUpDownDivision.Size = new System.Drawing.Size(100, 41);
-            this.numericUpDownDivision.TabIndex = 21;
+            this.numericUpDownDivision.TabIndex = 5;
+            this.numericUpDownDivision.Enter += new System.EventHandler(this.numericUpDown_Enter);
+            this.numericUpDownDivision.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericUpDownSum_MouseClick);
             // 
             // labelRightDivisionValue
             // 
@@ -360,6 +388,7 @@
             this.MaximizeBox = false;
             this.Name = "FormSymbolDivision";
             this.Text = "Maths Quiz";
+            this.Load += new System.EventHandler(this.FormSymbolDivision_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownSum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownDifference)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownProduct)).EndInit();
