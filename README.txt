@@ -12,3 +12,5 @@ for which, can be found at the bottom of this text file.
 
 Subsequent iterations of the quiz will use more advanced techniques learnt during 
 Programming II to improve the overall cleanliness and efficiency of the code.
+
+MSDN Source: https://msdn.microsoft.com/en-us/library/dd492172.aspx
